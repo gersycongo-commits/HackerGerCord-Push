@@ -1,0 +1,16 @@
+{
+  "name": "hackergcord-push",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Envio periódico de notificações push da HackerGerCord usando Firebase Admin e GitHub Actions.",
+  "main": "index.js",
+  "scripts": {
+    "send": "node index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "firebase-admin": "^13.5.0"
+  }
+}
